@@ -8,7 +8,7 @@
 `Exosphere` is a deep learning based traffic detection system. Particularly, it aims to capture tunneled flooding traffic. 
 It leverages deep learning based semantic analysis to extract semantic features, i.e., the features represent strong correlations between flooding packets with similar length patterns.
 
-This repository provides a `PyTorch` based demo, which is easy to reproduce. Meanwhile, we also provide (full version)[https://drive.google.com/file/d/1_P8HIs3Q9f_HlA9_x2HMr0q6ScPzrF0g/view?usp=drive_link] of the paper for reference.
+This repository provides a `PyTorch` based demo, which is easy to reproduce. Meanwhile, we also provide [full version](https://drive.google.com/file/d/1_P8HIs3Q9f_HlA9_x2HMr0q6ScPzrF0g/view?usp=drive_link) of the paper for reference.
 
 
 ## 0x01 Environment
