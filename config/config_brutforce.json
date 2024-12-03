@@ -1,0 +1,23 @@
+{
+    "data_path": "./dataset",
+    "log_path": "./log/brutforce",
+    "fig_path": "./figure/brutforce",
+    "data_tag": {
+        "bruteforce_udp": 0,
+        "bruteforce_icmp": 0,
+        "bruteforce_rst": 0,
+        "bruteforce_syn": 0
+    },
+    "gpu_enable": [
+        0, 1, 2, 3
+    ],
+    "data_construct_param": {
+        "train_ratio": 0.6,
+        "segment_len": 1000
+    },
+    "train_param": {
+        "lr": 0.001, 
+        "batch_size": 10,
+        "num_epoch": 15
+    }
+}

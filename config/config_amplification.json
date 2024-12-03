@@ -1,0 +1,23 @@
+{
+    "data_path": "./dataset",
+    "log_path": "./log/amplification",
+    "fig_path": "./figure/amplification",
+    "data_tag": {
+        "amp_ntp": 0.0,
+        "amp_cldap": 0.0,
+        "amp_dns": 0.0,
+        "amp_memcached": 0.0
+    },
+    "gpu_enable": [
+        0, 1, 2, 3
+    ],
+    "data_construct_param": {
+        "train_ratio": 0.8,
+        "segment_len": 1000
+    },
+    "train_param": {
+        "lr": 0.001, 
+        "batch_size": 10,
+        "num_epoch": 15
+    }
+}

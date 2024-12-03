@@ -1,0 +1,23 @@
+{
+    "data_path": "./dataset",
+    "log_path": "./log/flooding",
+    "fig_path": "./figure/flooding",
+    "data_tag": {
+        "Whisper_FUZZ": 0.0,
+        "Whisper_SSDPDOS": 0.0,
+        "Whisper_SYNDOS": 0.0,
+        "Whisper_UDPDOS": 0.0
+    },
+    "gpu_enable": [
+        0, 1, 2, 3
+    ],
+    "data_construct_param": {
+        "train_ratio": 0.8,
+        "segment_len": 1000
+    },
+    "train_param": {
+        "lr": 0.001,
+        "batch_size": 10,
+        "num_epoch": 15
+    }
+}
