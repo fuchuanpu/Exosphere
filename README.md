@@ -13,10 +13,12 @@ This repository provides a `PyTorch` based demo, which is easy to reproduce. Mea
 
 ## 0x01 Environment
 
-`Exosphere` requires `PyTorch` (CUDA version) for DNN training and testing. It relys on `matplotlib` and `sklearn` for analyzing the detection accuracy.
+`Exosphere` requires `PyTorch` (CUDA version) for DNN training and testing. It relys on `matplotlib`, `numpy` and `sklearn` for analyzing the detection accuracy.
 
 This demo has been tested on a GPU server with 4 `NVIDIA Tesla V100` (32GB), `Ubuntu` v20.04 official image, `Python` v3.8.10, and `PyTorch` v1.11.0 for `CUDA` v11.3.
 
+| Please be aware that the demo processes four traces simultaneously. Therefore, it is recommended to allocate at least 16MB of memory.
+ 
 
 ## 0x02 Usage
 First please download the datasets.
